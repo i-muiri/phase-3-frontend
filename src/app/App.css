@@ -1,10 +1,10 @@
 body {
   background-image: url(/src/images/image1.jpeg);
-  color: aliceblue;
+  color: forestgreen;
 }
 
 .movies {
-  background-image: url(movies-app/src/images/image2.jpeg);
+  background-image: url(/src/images/image2.jpeg);
   color: aliceblue;
   text-align: center;
   width: fit-content;
@@ -15,7 +15,7 @@ body {
 
 
 h1.title {
-  font-family: "Brush Script MT", cursive;
+  font-family: "Brush Script MT", ;
 }
 
 .App {

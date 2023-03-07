@@ -11,8 +11,8 @@ function Homepage() {
     return (
         <div >
             <div class="container-lg">
-                <p className="fs-4">Welcome to your home of movies, we got you, right after you sign in ...</p>
-                <Link to="/addMovie"><button class="btn btn-success">Add Movies Here</button></Link>
+                <p className="fs-4">Welcome home ...</p>
+                <Link to="/addMovie"><button class="btn btn-success">Add Movies</button></Link>
             </div>
 
             <Routes>
