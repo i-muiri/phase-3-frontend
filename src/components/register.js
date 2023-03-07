@@ -1,14 +1,14 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 const Register = () => {
-    
+
     const navigate = useNavigate()
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
     function handleAdd(e) {
         e.preventDefault()
-    fetch('http://127.0.0.1:9292/auth/register', {
+    fetch('https://movies-backend-ku82.onrender.com/auth/register', {
     method: 'POST',
     body: JSON.stringify({
         name: name,

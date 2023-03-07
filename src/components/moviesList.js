@@ -11,7 +11,7 @@ function MoviesList() {
     // all movies
     useState(() => {
 
-        fetch("http://127.0.0.1:9292/movies")
+        fetch("https://movies-backend-ku82.onrender.com/movies")
             .then(response => response.json())
             .then((data) => {
                 console.log(data);

@@ -1,10 +1,13 @@
 body {
-  background-image: url(/src/images/image1.jpeg);
+  background-image: url(/src/images/image2.jpeg);
+  opacity: 100%;
   color: forestgreen;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .movies {
-  background-image: url(/src/images/image2.jpeg);
+  background-color: #282c34;
   color: aliceblue;
   text-align: center;
   width: fit-content;
